@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233327283976",
+    "project_id": "vechicleserviceapp",
+    "storage_bucket": "vechicleserviceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233327283976:android:c143c4ade37d38fd1866bd",
+        "android_client_info": {
+          "package_name": "com.example.vechiceserviceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-pmFM2SvTMvGBVO9wLYxIPLGK5vV1FrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

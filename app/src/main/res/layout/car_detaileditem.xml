@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    android:layout_margin="15dp"
+    android:background="@drawable/bg"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Image" />
+        <TextView
+            android:id="@+id/id_servicecenternametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Service Center name"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/id_descriptiontxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/lavender"
+            android:text="
+Why are there only 12 notes in Western music? - Classic FM"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/id_pickuptxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#907292"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/baseline_directions_car_filled_24"
+            android:text="Pickup Available"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+        <TextView
+            android:id="@+id/id_locationtxt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/design_default_color_error"
+            android:textStyle="bold"
+            android:text="Dharapuram,Tamilnadu"
+            android:textSize="18sp"
+
+            android:drawableLeft="@drawable/baseline_location_on_24"
+            android:drawablePadding="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/id_contactnotxt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/baseline_local_phone_24"
+            android:text="9994321468"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:id="@+id/id_ratingstxt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/baseline_star_24"
+            android:text="3.5"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:id="@+id/id_specialitytxt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/baseline_domain_verification_24"
+            android:text="hello im there"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:id="@+id/id_recommendedtxt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/baseline_recommend_24"
+            android:text="hello im there"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:id="@+id/id_timetxt"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:textColor="?android:attr/colorControlActivated"
+            android:textStyle="bold"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/baseline_access_time_filled_24"
+            android:text="10:00A.M-7:30P.M"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:id="@+id/id_cost"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/baseline_euro_symbol_24"
+            android:text="10:00A.M-7:30P.M"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <Button
+            android:id="@+id/id_btnBookService"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BOOK FOR SERVICE"
+            android:background="@drawable/button_selector"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="15dp"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
